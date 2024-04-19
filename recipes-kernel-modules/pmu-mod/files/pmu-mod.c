@@ -7,7 +7,7 @@
 #define DEVICE_NAME "pmu-mod-example"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Jagjit Singh");
 MODULE_DESCRIPTION("A simple character kernel module");
 MODULE_VERSION("0.1");
 
