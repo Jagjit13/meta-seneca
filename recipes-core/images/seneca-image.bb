@@ -9,6 +9,9 @@ export IMAGE_BASENAME = "Seneca-Custom-Image"
 MACHINE_NAME ?= "${MACHINE}"
 IMAGE_NAME = "${MACHINE_NAME}_${IMAGE_BASENAME}"
 
+IMAGE_INSTALL += "pmu-mod"
+
+
 IMAGE_INSTALL:append = " kernel-devsrc"
 
 IMAGE_INSTALL:append = " \
