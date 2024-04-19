@@ -18,4 +18,5 @@ do_install() {
     install -m 0755 tests/simple-library-test ${D}${bindir}/
 }
 
-FILES:${PN} += "${bindir}/simple-library-test"
+FILES_${PN} += "${bindir}/simple-library-test"
+

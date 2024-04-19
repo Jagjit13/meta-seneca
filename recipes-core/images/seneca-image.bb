@@ -3,7 +3,6 @@ SUMMARY = "This is a base image created as example for courses"
 IMAGE_LINGUAS = " "
 
 LICENSE = "MIT"
-
 inherit core-image
 
 export IMAGE_BASENAME = "Seneca-Custom-Image"
